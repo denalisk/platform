@@ -4,7 +4,7 @@ Effects are an RxJS powered side effect model for [Store](guide/store). Effects 
 
 ## Introduction
 
-In a service-based Angular application, components are responsible for interacting with external resources directly through services. Instead, effects provide a way to interact with those services and isolate them from the components. Effects are where you handle tasks such as fetching data, long-running tasks that produce multiple events, and other external interactions where your components don't need explicit knowledge of these interactions.
+In a service-based Angular application, components interact with external resources directly through services. In NgRx, effects provide a way to interact with those services and isolate them from the components. Effects are where you handle tasks such as fetching data, long-running tasks that produce multiple events, and other external interactions where your components don't need explicit knowledge of these interactions.
 
 ## Key Concepts
 
